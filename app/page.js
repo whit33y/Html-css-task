@@ -1,95 +1,49 @@
-import Image from "next/image";
 import styles from "./page.module.css";
+import SpecsButton from "./ui/buttons/specsbutton";
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+      <h1 className={styles.title}>Virtual reality was never this perfect <br /> and it will never be the same</h1>
+      <div className={styles.content}>
+        <div className={styles.imageConteiner}>
+          <img src="/visionproblack.jpeg" alt="Apple Vision Pro" className={styles.image} />
+          <h3 className={styles.text}>Our latest and most advanced technology of all time</h3>
         </div>
       </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+      <div className={styles.mainContent}>
+        <h2 className={styles.headerText}>The future is now</h2>
+        <p>
+          Our new product is a powerful revolution of our decade. <br />
+          Years of experience have allowed us to create Apple Vision Pro. <br />
+          A wearable device that changes the way we look at entertaiment, work and many more...< br />
+          Transform any room into office, cinema, game center or just whatever you want...
+        </p>
+        <h2>Watch our demo and see for yourself!</h2>
       </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+      <iframe
+        src="https://www.youtube.com/embed/Vb0dG-2huJE"
+        height={608}
+        width={1080}
+        allowFullScreen
+        className={styles.videoFrame}
+      />
+      <h2 className={styles.headerText}>Comfortable for any head shape</h2>
+      <div className={styles.bottomGirlImage}>
+        <img src="/visiongirl.jpeg" alt="Apple Vision Pro" />
       </div>
-    </main>
+      <div className={styles.bottomContent}>
+        <div className={styles.bottomContentText}>
+          <h2 className={styles.headerText}>With attention to detail in every single component<br />
+            Precision and passion make us the <span className={styles.headerTextOrange}>best</span></h2>
+          <h2>Just take a <span className={styles.headerTextRainbow}>look...</span></h2>
+        </div>
+        <div className={styles.bottomContentImg}>
+          <img src="/appletop.jpeg" alt="Apple Vision Pro" />
+          <img src="/appletop2.jpeg" alt="Apple Vision Pro" />
+        </div>
+      </div>
+      <SpecsButton />
+    </main >
   );
 }
