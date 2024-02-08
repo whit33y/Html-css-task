@@ -50,27 +50,35 @@ function Page() {
                     <p>Works with macOS from 14.0.0</p>
                 </div>
             </div>
-            <div className={styles.bottomContent}>
-                <div className={styles.bottomContentSpecs}>
-                    <h2>In the box</h2>
-                    <div className={styles.bottomContentSpecsText}>
+            <div className={styles.bottomContentBox}>
+                <h2>In the box</h2>
+                <div className={styles.bottomContentBoxText}>
+                    <div>
                         <p>Apple Vision Pro</p>
                         <p>Cover</p>
                         <p>Dual loop band</p>
                         <p>Battery</p>
+                    </div>
+                    <div>
                         <p>Light seal cushion</p>
                         <p>Polishing cloth</p>
                         <p>30W USB-C Power adapter</p>
                         <p>USB-C Charge cable 1.5m</p>
                     </div>
                 </div>
-                <div className={styles.bottomContentSpecs}>
+            </div>
+            <div className={styles.bottomContent}>
+                <div className={styles.bottomContentBox}>
                     <h2>Availability</h2>
-                    <div className={styles.bottomContentSpecsText}>
-                        <p>Available in America.</p>
-                        <p>Product will be available soon in China...</p>
-                        <p>Product will be available in Europe in mid-2024.</p>
-                        <p>Product will be available in Australia in mid-2024.</p>
+                    <div className={styles.bottomContentBoxText}>
+                        <div>
+                            <p>Available in America 🇺🇸</p>
+                            <p>Product will be available soon in China 🇨🇳</p>
+                        </div>
+                        <div>
+                            <p>Product will be available in Europe in mid-2024 🇪🇺</p>
+                            <p>Product will be available in Australia in mid-2024 🇦🇺</p>
+                        </div>
                     </div>
                 </div>
             </div>
