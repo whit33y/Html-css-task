@@ -1,9 +1,9 @@
-import styles from "./button.module.css";
+import "./button.css";
 
 function BuyButton() {
     return (
         <a href='/specs'>
-            <button className={styles.buyButton}>
+            <button className="buyButton">
                 Buy
             </button>
         </a>

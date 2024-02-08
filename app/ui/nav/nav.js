@@ -1,15 +1,15 @@
-import styles from "./nav.module.css";
+import "./nav.css";
 import BuyButton from "../buttons/buybutton";
 import WatchButton from "../buttons/watchbutton";
 import Search from "../Search/search";
 
 function Navigation() {
     return (
-        <nav className={styles.nav}>
-            <div className={styles.upperNav}>
+        <nav className="nav">
+            <div className="upperNav">
                 <div>
                     <a href="/" >
-                        <img src="/applelogo.png" alt="Apple logo" className={styles.appleLogo} />
+                        <img src="/applelogo.png" alt="Apple logo" className="appleLogo" />
                     </a>
                 </div>
                 <div>
@@ -21,8 +21,8 @@ function Navigation() {
                 </div>
                 <Search />
             </div>
-            <div className={styles.bottomNav}>
-                <div className={styles.rainbowText}>
+            <div className="bottomNav">
+                <div className="rainbowText">
                     Apple Vision Pro
                 </div>
                 <div>

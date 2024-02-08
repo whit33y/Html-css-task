@@ -15,7 +15,7 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.rainbowText {
+.rainbowTextSpecs {
   background: linear-gradient(90deg, red, orange, yellow);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;

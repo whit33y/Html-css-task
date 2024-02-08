@@ -6,44 +6,30 @@ import "./slider.css";
 const Slider = () => {
     const filteredItems = [
         {
-
             img: "videoframe5.png",
-
-
         },
         {
-
             img: "videoframe.png",
-
-
         },
         {
-
             img: "videoframe2.png",
-
-
         },
         {
-
             img: "videoframe4.png",
-
         },
         {
-
             img: "videoframe3.png",
-
-
         },
     ];
 
     const slideLeft = () => {
         let slider = document.getElementById("slider");
-        slider.scrollLeft = slider.scrollLeft - 235;
+        slider.scrollLeft = slider.scrollLeft - 300;
     };
 
     const slideRight = () => {
         let slider = document.getElementById("slider");
-        slider.scrollLeft = slider.scrollLeft + 235;
+        slider.scrollLeft = slider.scrollLeft + 300;
     };
     return (
         <>
