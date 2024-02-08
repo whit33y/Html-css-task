@@ -84,8 +84,14 @@
 
 .tobuyImages img {
   height: 250px;
-  margin: 20px;
+  margin: 30px;
+  transition: margin 200ms ease-in-out;
 }
+
+.tobuyImages img:hover {
+  margin: 35px;
+}
+
 .tobuy p {
   text-decoration: underline 0.15em rgba(255, 255, 255, 0);
   transition: text-decoration-color 400ms;
