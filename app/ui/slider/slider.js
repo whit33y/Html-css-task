@@ -7,18 +7,23 @@ const Slider = () => {
     const filteredItems = [
         {
             img: "videoframe5.png",
+            alt: "Video meeting in bedroom",
         },
         {
             img: "videoframe.png",
+            alt: "Video meeting in bedroom",
         },
         {
             img: "videoframe2.png",
+            alt: "Collegues on video meeting",
         },
         {
             img: "videoframe4.png",
+            alt: "Apple Vision Pro call in hotel room",
         },
         {
             img: "videoframe3.png",
+            alt: "Video meeting in hotel room",
         },
     ];
 
@@ -50,7 +55,7 @@ const Slider = () => {
                         {filteredItems.map((item) => (
                             <div key={item.img} className="row-item">
                                 <div className="item-header">
-                                    <img src={item.img} alt="Vision Pro meeting" />
+                                    <img src={item.img} alt={item.alt} />
                                 </div>
                             </div>
                         ))}

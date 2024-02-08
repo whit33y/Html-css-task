@@ -6,7 +6,7 @@ function Page() {
             <div className="topContent">
                 <h1>Tech specs of our latest <span className="rainbowTextSpecs">Apple Vision Pro</span></h1>
                 <div className="imageConteiner">
-                    <img src="/specs.jpeg" alt="Apple Vision Pro" />
+                    <img src="/specs.jpeg" alt="Apple Vision Pro from inside" />
                 </div>
             </div>
             <div className="content">
@@ -72,12 +72,12 @@ function Page() {
                     <h2>Availability</h2>
                     <div className="bottomContentBoxText">
                         <div>
-                            <p>Available in America 🇺🇸</p>
-                            <p>Product will be available soon in China 🇨🇳</p>
+                            <p>Available in America </p>
+                            <p>Product will be available soon in China </p>
                         </div>
                         <div>
-                            <p>Product will be available in Europe in mid-2024 🇪🇺</p>
-                            <p>Product will be available in Australia in mid-2024 🇦🇺</p>
+                            <p>Product will be available in Europe in mid-2024 </p>
+                            <p>Product will be available in Australia in mid-2024 </p>
                         </div>
                     </div>
                 </div>
@@ -88,15 +88,15 @@ function Page() {
                 </div>
                 <div className="tobuyImages">
                     <div>
-                        <img src="iphone.jpeg" />
+                        <img src="iphone.jpeg" alt="Iphone 15 pro max" />
                         <p>IPHONE 15 PRO MAX</p>
                     </div>
                     <div>
-                        <img src="airpods.png" />
+                        <img src="airpods.png" alt="Airpods pro gen 2" />
                         <p>AIRPODS PRO GEN 2</p>
                     </div>
                     <div>
-                        <img src="watch.png" />
+                        <img src="watch.png" alt="Apple Watch 9" />
                         <p>APPLE WATCH SERIES 9</p>
                     </div>
                 </div>
