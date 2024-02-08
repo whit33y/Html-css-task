@@ -1,0 +1,11 @@
+.upperNavSearch {
+  display: flex;
+}
+
+.upperNavSearch input {
+  border: none;
+  border-radius: 20px;
+}
+.upperNavSearch svg {
+  cursor: pointer;
+}
