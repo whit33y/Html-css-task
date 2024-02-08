@@ -5,3 +5,36 @@
   min-height: 100vh;
   color: white;
 }
+.title {
+  margin-top: 40px;
+}
+.mapImage {
+  width: 626px;
+  height: 450px;
+}
+.content {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.map a {
+  text-decoration: none;
+  color: white;
+}
+.contentRight p {
+  text-decoration: underline;
+}
+.contentBottom {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.contentBottomDetails {
+  text-decoration: underline;
+}
