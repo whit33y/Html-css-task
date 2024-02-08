@@ -29,8 +29,7 @@ function Page() {
             </div>
             <div className={styles.contentBottom}>
                 <h2>Feedback</h2>
-                <p>Write an e-mail or call us about what we can change on our website or in products
-                </p>
+                <p className={styles.contentBottomText}>Write an e-mail or call us about what we can change on our website or in our products</p>
                 <p className={styles.contentBottomDetails}>feedback@apple.com</p>
                 <p className={styles.contentBottomDetails}>001–800–692–7753</p>
             </div>

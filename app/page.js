@@ -28,7 +28,6 @@ export default function Home() {
         allowFullScreen
         className={styles.videoFrame}
       />
-      <h2 className={styles.headerText}>Comfortable for any head shape</h2>
       <div className={styles.bottomGirlImage}>
         <img src="/visiongirl.jpeg" alt="Apple Vision Pro" />
       </div>

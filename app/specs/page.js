@@ -63,7 +63,7 @@ function Page() {
                 <div className={styles.bottomContentSpecs}>
                     <h2>Operating system</h2>
                     <div className={styles.bottomContentSpecsText}>
-                        <p>New VisionOS</p>
+                        <p>New revolutionary VisionOS</p>
                     </div>
                 </div>
                 <div className={styles.bottomContentSpecs}>
