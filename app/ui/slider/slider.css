@@ -57,7 +57,7 @@
 
 .title-btns {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .btns button {
@@ -79,4 +79,13 @@
 
 .btns button:hover {
   background-color: rgb(255, 90, 0, 0.5);
+}
+
+@media only screen and (max-width: 720px) {
+  .container {
+    max-width: 400px;
+  }
+  .item-header img {
+    height: 10rem;
+  }
 }

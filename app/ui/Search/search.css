@@ -10,7 +10,7 @@
   cursor: pointer;
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 750px) {
   .upperNavSearch {
     display: none;
   }

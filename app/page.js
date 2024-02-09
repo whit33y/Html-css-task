@@ -22,20 +22,22 @@ export default function Home() {
         </p>
         <h2>Watch our demo and see for yourself!</h2>
       </div>
-      <iframe
-        src="https://www.youtube.com/embed/Vb0dG-2huJE"
-        height={608}
-        width={1080}
-        allowFullScreen
-        className="videoFrame"
-      />
+      <div className="videoframeContainer">
+        <iframe
+          src="https://www.youtube.com/embed/Vb0dG-2huJE"
+          height={608}
+          width={1080}
+          allowFullScreen
+          className="videoFrame"
+        />
+      </div>
       <div className="bottomMeeting">
         <h2>Online meeting was never this productive</h2>
         <p>Connect with Facetime or other aplication wherever you are and enjoy your meeting. <br />
           Colaborate with your cooworkers on the same documents. Share apps, windows or your entire view.
         </p>
-        <Slider />
       </div>
+      <Slider />
       <h2 className="bottomGirlText">Comfortable for every had shape</h2>
       <div className="bottomGirlImage">
         <img src="/visiongirl.jpeg" alt="Girl wearing Apple Vision Pro" />
@@ -43,8 +45,8 @@ export default function Home() {
       <div className="bottomContent">
         <div className="bottomContentText">
           <h2 className="headerText">With attention to detail in every single component<br />
-            Precision and passion make us the <span className="textOrange">best</span></h2>
-          <h2>Just take a <span className="headerTextRainbow">look...</span></h2>
+            Precision and passion make us the <span className="textOrange">best</span><br />
+            Just take a <span className="headerTextRainbow">look...</span></h2>
         </div>
         <div className="bottomContentImg">
           <img src="/appletop.jpeg" alt="Apple Vision Pro Glass" />

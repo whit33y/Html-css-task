@@ -27,8 +27,7 @@
   -webkit-background-clip: text;
 }
 .imageConteiner img {
-  width: 746px;
-  height: 400px;
+  width: 70%;
   margin-bottom: 30px;
 }
 .content {
