@@ -1,7 +1,7 @@
 .nav {
   width: 100%;
 }
-.nav .upperNav {
+.nav .nav-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -30,7 +30,7 @@
   text-decoration-color: rgba(255, 255, 255, 1);
 }
 
-.nav .bottomNav {
+.nav .nav-bottom {
   display: flex;
   justify-content: space-between;
   background-color: rgba(0, 0, 0);
@@ -38,7 +38,7 @@
   color: white;
 }
 
-.nav .bottomNav .rainbowText {
+.nav .nav-bottom .rainbowText {
   color: white;
   background: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
   background-clip: text;
@@ -46,7 +46,7 @@
   -webkit-background-clip: text;
 }
 
-.nav .bottomNav .rainbowText:hover {
+.nav .nav-bottom .rainbowText:hover {
   color: transparent;
   transition: color 700ms ease-in-out;
 }

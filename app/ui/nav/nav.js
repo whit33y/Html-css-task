@@ -6,7 +6,7 @@ import Search from "../Search/search";
 function Navigation() {
     return (
         <nav className="nav">
-            <div className="upperNav">
+            <div className="nav-top">
                 <div>
                     <a href="/" >
                         <img src="/applelogo.png" alt="Apple logo" className="appleLogo" />
@@ -21,8 +21,8 @@ function Navigation() {
                 </div>
                 <Search />
             </div>
-            <div className="bottomNav">
-                <div className="rainbowText">
+            <div className="nav-bottom">
+                <div className="text-rainbow">
                     Apple Vision Pro
                 </div>
                 <div>
