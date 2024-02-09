@@ -39,7 +39,7 @@ const Slider = () => {
     return (
         <>
             <div className="trending">
-                <div className="container">
+                <div className="slider">
                     <div className="title-btns">
                         <h3></h3>
                         <div className="btns">

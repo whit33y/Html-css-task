@@ -1,37 +1,37 @@
-.main {
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
   color: white;
 }
-.title {
+.container-title {
   color: rgb(255, 255, 255);
   text-align: center;
 }
-.content {
+.container-top {
   width: 100%;
   height: 500px;
   display: flex;
   justify-content: center;
   text-align: center;
 }
-.textOrange {
+.text-orange {
   color: rgb(255, 90, 0);
 }
 
-.imageConteiner {
+.container-top-image {
   position: relative;
   display: inline-block;
 }
 
-.imageConteiner img {
+.container-top-image img {
   display: block;
   width: 100%;
   height: auto;
 }
 
-.imageConteiner .text {
+.container-top-image-text {
   position: absolute;
   cursor: default;
   top: 60%;
@@ -44,13 +44,13 @@
   font-size: 20px;
   text-align: center;
 }
-.videoframeContainer {
+.container-video {
   position: relative;
   overflow: hidden;
   width: 100%;
   padding-top: 56.25%;
 }
-.videoFrame {
+.container-video-frame {
   position: absolute;
   top: 0;
   left: 0;
@@ -60,13 +60,13 @@
   height: 100%;
   border: none;
 }
-.mainContent {
+.container-main {
   color: white;
   text-align: center;
   font-style: normal;
 }
 
-.mainContent p {
+.container-main p {
   font-size: 20px;
 }
 .bottomContent {
@@ -78,22 +78,22 @@
   text-align: center;
   color: white;
 }
-.bottomContentText {
+.container-bottom-text {
   height: 15%;
   text-align: center;
 }
 
-.text {
+.container-top-image-text {
   color: rgb(255, 90, 0);
   text-shadow: rgb(255, 90, 0) 1px 0 10px;
   transition: all 300ms ease-in-out;
 }
-.text:hover {
+.container-top-image-text:hover {
   color: rgb(255, 255, 255);
   text-shadow: rgb(255, 255, 255) 1px 0 10px;
 }
 
-.bottomContentImg {
+.container-bottom-image {
   padding-left: 6rem;
   padding-right: 6rem;
   height: 80%;
@@ -102,42 +102,35 @@
   color: white;
 }
 
-.bottomContentText .headerTextRainbow {
-  background: linear-gradient(90deg, red, orange, yellow);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-}
-.bottomContentImg img {
+.container-bottom-image img {
   width: 50%;
   padding: 10px;
   border-radius: 10%;
 }
-.bottomGirlText {
-  color: white;
-}
-.bottomGirlImage {
+
+.container-girlphoto {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   color: white;
 }
-.bottomGirlImage img {
+.container-girlphoto img {
   width: 50%;
 }
 
-.bottomMeeting h2 {
+.container-slider h2 {
   color: white;
   text-align: center;
 }
-.bottomMeeting p {
+.container-slider p {
   color: white;
   text-align: center;
   font-size: 20px;
 }
 
 @media only screen and (max-width: 1020px) {
-  .bottomContentImg {
+  .container-bottom-image {
     height: 70%;
     display: flex;
     flex-direction: column;
@@ -145,13 +138,13 @@
     padding-left: 0;
     padding-right: 0;
   }
-  .bottomContentImg img {
+  .container-bottom-image img {
     width: 50%;
     border-radius: 20px;
   }
 }
 @media only screen and (max-width: 720px) {
-  .mainContent {
+  .container-main {
     margin: 0px;
   }
 }
@@ -159,7 +152,7 @@
   .content {
     height: 30rem;
   }
-  .mainContent {
+  .container-main {
     margin-top: 30px;
   }
 }
