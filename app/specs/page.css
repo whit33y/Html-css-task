@@ -107,3 +107,13 @@
   display: flex;
   justify-content: space-around;
 }
+
+@media only screen and (max-width: 720px) {
+  .tobuy {
+    height: 100%;
+  }
+  .tobuyImages {
+    display: flex;
+    flex-direction: column;
+  }
+}

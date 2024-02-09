@@ -54,3 +54,13 @@
 .contentBottomDetails {
   text-decoration: underline;
 }
+
+@media only screen and (max-width: 1250px) {
+  .content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .contentBottom {
+    text-align: center;
+  }
+}
