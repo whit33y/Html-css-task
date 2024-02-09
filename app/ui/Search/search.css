@@ -9,3 +9,9 @@
 .upperNavSearch svg {
   cursor: pointer;
 }
+
+@media only screen and (max-width: 720px) {
+  .upperNavSearch {
+    display: none;
+  }
+}

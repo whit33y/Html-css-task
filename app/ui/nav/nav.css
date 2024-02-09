@@ -50,15 +50,3 @@
   color: transparent;
   transition: color 700ms ease-in-out;
 }
-
-.upperNavSearch {
-  display: flex;
-}
-
-.upperNavSearch input {
-  border: none;
-  border-radius: 20px;
-}
-.upperNavSearch svg {
-  cursor: pointer;
-}
