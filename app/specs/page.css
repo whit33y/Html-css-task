@@ -101,6 +101,10 @@
   justify-content: space-around;
 }
 
+.cards-mobile {
+  display: none;
+}
+
 @media only screen and (max-width: 720px) {
   .container-buy {
     height: 100%;
@@ -108,5 +112,11 @@
   .container-buy-images {
     display: flex;
     flex-direction: column;
+  }
+  .cards-pc {
+    display: none;
+  }
+  .cards-mobile {
+    display: block;
   }
 }

@@ -14,10 +14,10 @@ function Page() {
                     <h2>Chips</h2>
                     <p>M2 8-core CPU</p>
                     <p>10-core GPU</p>
-                    <p>16GB unified memory</p>
+                    <p>16GB memory</p>
                 </div>
                 <div className="cards">
-                    <h2>Capacity - prices</h2>
+                    <h2>Capacity</h2>
                     <p>256GB- 3449$</p>
                     <p>512GB- 3699$</p>
                     <p>1TB- 3899$</p>
@@ -25,14 +25,14 @@ function Page() {
                 <div className="cards">
                     <h2>Display</h2>
                     <p>23 milion pixels</p>
-                    <p>3D display system</p>
+                    <p>3D display </p>
                     <p>Micro-Oled</p>
                 </div>
             </div>
             <div className="container-main">
                 <div className="cards">
                     <h2>Camera</h2>
-                    <p>Stereoscopic 3D main camera </p>
+                    <p>Stereoscopic 3D main camera system </p>
                     <p>Spatial photo and video capture</p>
                     <p>18 mm, ƒ/2.00 aperture</p>
 
@@ -44,7 +44,8 @@ function Page() {
                     <p>Can be used while charging the battery</p>
                 </div>
                 <div className="cards">
-                    <h2>Operating system</h2>
+                    <h2 className="cards-pc">Operating system</h2>
+                    <h2 className="cards-mobile">OS</h2>
                     <p>New revolutionary visionOS</p>
                     <p>Works with iOS</p>
                     <p>Works with macOS from 14.0.0</p>
