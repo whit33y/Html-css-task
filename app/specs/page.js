@@ -2,14 +2,14 @@ import "./page.css";
 
 function Page() {
     return (
-        <main className="main">
-            <div className="topContent">
-                <h1>Tech specs of our latest <span className="rainbowTextSpecs">Apple Vision Pro</span></h1>
+        <main className="container">
+            <div className="container-top">
+                <h1>Tech specs of our latest <span className="text-rnbw">Apple Vision Pro</span></h1>
                 <div className="imageConteiner">
                     <img src="/specs.jpeg" alt="Apple Vision Pro from inside" />
                 </div>
             </div>
-            <div className="content">
+            <div className="container-main">
                 <div className="cards">
                     <h2>Chips</h2>
                     <p>M2 8-core CPU</p>
@@ -29,7 +29,7 @@ function Page() {
                     <p>Micro-Oled</p>
                 </div>
             </div>
-            <div className="content">
+            <div className="container-main">
                 <div className="cards">
                     <h2>Camera</h2>
                     <p>Stereoscopic 3D main camera </p>
@@ -50,27 +50,29 @@ function Page() {
                     <p>Works with macOS from 14.0.0</p>
                 </div>
             </div>
-            <div className="bottomContentBox">
-                <h2>In the box</h2>
-                <div className="bottomContentBoxText">
-                    <div>
-                        <p>Apple Vision Pro</p>
-                        <p>Cover</p>
-                        <p>Dual loop band</p>
-                        <p>Battery</p>
-                    </div>
-                    <div>
-                        <p>Light seal cushion</p>
-                        <p>Polishing cloth</p>
-                        <p>30W USB-C Power adapter</p>
-                        <p>USB-C Charge cable 1.5m</p>
+            <div className="container-bottom">
+                <div className="container-bottom-box">
+                    <h2>In the box</h2>
+                    <div className="container-bottom-box-text">
+                        <div>
+                            <p>Apple Vision Pro</p>
+                            <p>Cover</p>
+                            <p>Dual loop band</p>
+                            <p>Battery</p>
+                        </div>
+                        <div>
+                            <p>Light seal cushion</p>
+                            <p>Polishing cloth</p>
+                            <p>30W USB-C Power adapter</p>
+                            <p>USB-C Charge cable 1.5m</p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div className="bottomContent">
-                <div className="bottomContentBox">
+            <div className="container-bottom">
+                <div className="container-bottom-box">
                     <h2>Availability</h2>
-                    <div className="bottomContentBoxText">
+                    <div className="container-bottom-box-text">
                         <div>
                             <p>Available in America </p>
                             <p>Product will be available soon in China </p>
@@ -82,11 +84,11 @@ function Page() {
                     </div>
                 </div>
             </div>
-            <div className="tobuy">
+            <div className="container-buy">
                 <div>
                     <h2>Apple Vision Pro works perfectly with</h2>
                 </div>
-                <div className="tobuyImages">
+                <div className="container-buy-images">
                     <div>
                         <img src="iphone.jpeg" alt="Iphone 15 pro max" />
                         <p>IPHONE 15 PRO MAX</p>
