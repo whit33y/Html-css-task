@@ -1,0 +1,88 @@
+.slider {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 19px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.row-item {
+  outline: 2px solid rgba(0, 0, 0, 0.205);
+  cursor: pointer;
+  transition: all 0.15s ease-in;
+}
+
+.row-item:hover {
+  outline: 2px solid rgba(0, 0, 0, 0.6);
+}
+
+.item-header img {
+  height: 20rem;
+  margin: 0;
+  transition: all 300ms ease-in-out;
+}
+.item-header img:hover {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.item-description {
+  font-size: 1.7rem;
+  padding: 1rem;
+}
+
+.trending h3 {
+  font-size: 2.6rem;
+  font-weight: 600;
+}
+
+.row-container {
+  display: flex;
+  gap: 2.2rem;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+  position: relative;
+  padding: 1rem 0.6rem;
+}
+
+.row-container::-webkit-scrollbar {
+  display: none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.title-btns {
+  display: flex;
+  justify-content: center;
+}
+
+.btns button {
+  color: white;
+  background-color: rgb(255, 90, 0);
+  padding: 1rem;
+  font-size: 1.5rem;
+  border: none;
+  height: 4rem;
+  width: 4rem;
+  cursor: pointer;
+  transition: all 0.1s ease-in;
+}
+
+.btns {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.btns button:hover {
+  background-color: rgb(255, 90, 0, 0.5);
+}
+
+@media only screen and (max-width: 720px) {
+  .item-header img {
+    height: 10rem;
+  }
+}
