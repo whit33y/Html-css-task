@@ -46,7 +46,7 @@ export default function Home() {
       <div className="container-bottom-text">
         <h2 className="container-subtitle">With attention to detail in every single component<br />
           Precision and passion make us the <span className="text-orange">best</span><br />
-          Just take a look at this. It&apos;s <span className="headerTextRainbow">perfect...</span></h2>
+          Just take a look at this. It&apos;s <span className="text-orange">perfect...</span></h2>
       </div>
 
       <div className="container-bottom-image">
