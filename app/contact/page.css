@@ -1,24 +1,24 @@
-.main {
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
   color: white;
 }
-.main h2 {
+.container h2 {
   margin-bottom: -2px;
 }
-.main p {
+.container p {
   margin-bottom: 0px;
 }
-.title {
+.container-title {
   margin-top: 40px;
 }
-.mapImage {
+.container-top img {
   width: 626px;
   height: 450px;
 }
-.content {
+.container-top {
   margin-top: 30px;
   width: 100%;
   display: flex;
@@ -27,31 +27,31 @@
   border-bottom: 1px solid white;
 }
 
-.map a {
+.container-top a {
   text-decoration: none;
   color: white;
   text-decoration: underline 0.15em rgba(255, 255, 255, 0);
   transition: text-decoration-color 400ms;
 }
-.map a:hover {
+.container-top a:hover {
   text-decoration-color: rgba(255, 255, 255, 1);
   cursor: pointer;
 }
-.contentRight p {
+.container-top-contact p {
   text-decoration: underline;
 }
-.contentBottom {
+.container-bottom {
   width: 100%;
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
   border-bottom: 1px solid white;
 }
-.contentBottomText {
+.container-bottom-text {
   font-size: 18px;
 }
 
-.contentBottomDetails {
+.container-bottom-text-details {
   text-decoration: underline;
 }
 
