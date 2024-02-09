@@ -82,9 +82,6 @@
 }
 
 @media only screen and (max-width: 720px) {
-  .container {
-    max-width: 400px;
-  }
   .item-header img {
     height: 10rem;
   }
