@@ -85,4 +85,7 @@
   .item-header img {
     height: 10rem;
   }
+  .row-container {
+    padding: 1rem 20rem;
+  }
 }
