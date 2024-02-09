@@ -42,16 +42,16 @@ export default function Home() {
       <div className="bottomGirlImage">
         <img src="/visiongirl.jpeg" alt="Girl wearing Apple Vision Pro" />
       </div>
-      <div className="bottomContent">
-        <div className="bottomContentText">
-          <h2 className="headerText">With attention to detail in every single component<br />
-            Precision and passion make us the <span className="textOrange">best</span><br />
-            Just take a <span className="headerTextRainbow">look...</span></h2>
-        </div>
-        <div className="bottomContentImg">
-          <img src="/appletop.jpeg" alt="Apple Vision Pro Glass" />
-          <img src="/appletop2.jpeg" alt="Apple Vision Pro Glass" />
-        </div>
+
+      <div className="bottomContentText">
+        <h2 className="headerText">With attention to detail in every single component<br />
+          Precision and passion make us the <span className="textOrange">best</span><br />
+          Just take a look at this<span className="headerTextRainbow"> details...</span></h2>
+      </div>
+
+      <div className="bottomContentImg">
+        <img src="/appletop.jpeg" alt="Apple Vision Pro Glass" />
+        <img src="/appletop2.jpeg" alt="Apple Vision Pro Glass" />
       </div>
       <SpecsButton />
     </main >
