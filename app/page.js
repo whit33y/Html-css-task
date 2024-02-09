@@ -8,7 +8,7 @@ export default function Home() {
       <h1 className="title">Virtual reality was never this <span className="textOrange">perfect</span> <br /> and it will never be the same</h1>
       <div className="content">
         <div className="imageConteiner">
-          <img src="/visionproblack.jpeg" alt="Apple Vision Pro" className="image" />
+          <img src="/visionproblack.jpeg" alt="Apple Vision Pro" />
           <h3 className="text">Our latest and most advanced technology of all time</h3>
         </div>
       </div>

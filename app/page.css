@@ -24,7 +24,7 @@
   display: inline-block;
 }
 
-.imageConteiner .image {
+.imageConteiner img {
   display: block;
   width: 100%;
   height: auto;
@@ -45,6 +45,8 @@
 }
 .videoFrame {
   margin-bottom: 10px;
+  height: 608px;
+  width: 1080px;
 }
 .mainContent {
   color: white;
@@ -103,7 +105,6 @@
 }
 .bottomGirlImage {
   width: 100%;
-  height: 600px;
   display: flex;
   flex-direction: column;
   align-items: center;
