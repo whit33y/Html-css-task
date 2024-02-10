@@ -41,7 +41,7 @@
   color: rgb(255, 90, 0);
   text-shadow: rgb(255, 90, 0) 1px 0 10px;
   padding: 10px 20px;
-  font-size: 20px;
+  font-size: 25px;
   text-align: center;
 }
 .container-video {
@@ -144,6 +144,9 @@
 @media only screen and (max-width: 720px) {
   .container-main {
     margin: 0px;
+  }
+  .container-top-image-text {
+    font-size: 20px;
   }
 }
 @media only screen and (max-width: 984px) {
