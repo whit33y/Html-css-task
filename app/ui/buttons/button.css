@@ -1,5 +1,5 @@
 .btn-buy {
-  background-color: rgb(0, 113, 227, 1);
+  background-color: rgb(255, 90, 0, 1);
   color: white;
   border: none;
   border-radius: 10px;
@@ -9,11 +9,11 @@
   padding-bottom: 2px;
   transition: all 400ms;
   cursor: pointer;
-  margin-left: 10px;
+  margin-left: 19px;
 }
 
 .btn-buy:hover {
-  background-color: rgb(0, 113, 227, 0.8);
+  background-color: rgb(255, 90, 0, 0.8);
 }
 
 .btn-watch {
@@ -33,30 +33,4 @@
   background-color: white;
   color: black;
   border: 0.5px black solid;
-}
-.btn-specs {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  text-decoration: none;
-  color: white;
-  background-color: rgb(255, 90, 0);
-  font-size: 15px;
-  border: none;
-  border-radius: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  cursor: pointer;
-  transition: background-color 400ms ease-in-out;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-}
-
-.btn-specs a {
-  text-decoration: none;
-}
-.btn-specs:hover {
-  background-color: rgb(255, 90, 0, 0.5);
 }

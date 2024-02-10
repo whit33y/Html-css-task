@@ -1,5 +1,4 @@
 import "./page.css";
-import SpecsButton from "./ui/buttons/specsbutton";
 import Slider from "./ui/Slider/slider";
 
 export default function Home() {
@@ -53,7 +52,6 @@ export default function Home() {
         <img src="/appletop.jpeg" alt="Apple Vision Pro Glass" />
         <img src="/appletop2.jpeg" alt="Apple Vision Pro Glass" />
       </div>
-      <SpecsButton />
     </main >
   );
 }
