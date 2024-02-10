@@ -12,12 +12,10 @@ function Navigation() {
                         <img src="/applelogo.png" alt="Apple logo" className="appleLogo" />
                     </a>
                 </div>
-                <div>
-                    <ol>
-                        <li><a href='/'>Home</a></li>
-                        <li><a href='/specs'>Specs</a></li>
-                        <li><a href='/contact'>Contact</a></li>
-                    </ol>
+                <div className="nav-links">
+                    <a href='/'>Home</a>
+                    <a href='/specs'>Specs</a>
+                    <a href='/contact'>Contact</a>
                 </div>
                 <Search />
             </div>
@@ -30,7 +28,7 @@ function Navigation() {
                     <BuyButton />
                 </div>
             </div>
-        </nav>
+        </nav >
     );
 }
 
