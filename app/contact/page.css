@@ -56,11 +56,21 @@
 }
 
 @media only screen and (max-width: 1250px) {
-  .content {
+  .container-top {
     flex-direction: column;
     text-align: center;
   }
-  .contentBottom {
+  .container-top img {
+    width: 40rem;
+    height: 100%;
+  }
+  .container-bottom {
     text-align: center;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .container-top img {
+    width: 20rem;
   }
 }
