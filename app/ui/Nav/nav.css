@@ -39,7 +39,7 @@
   color: white;
 }
 
-.nav .nav-bottom .rainbowText {
+.nav .nav-bottom .text-rainbow {
   color: white;
   background: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
   background-clip: text;
@@ -47,7 +47,7 @@
   -webkit-background-clip: text;
 }
 
-.nav .nav-bottom .rainbowText:hover {
+.nav .nav-bottom .text-rainbow:hover {
   color: transparent;
   transition: color 700ms ease-in-out;
 }
