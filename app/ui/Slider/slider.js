@@ -40,13 +40,22 @@ const Slider = () => {
         <>
             <div className="trending">
                 <div className="slider">
-                    <div className="title-btns">
-                        <h3></h3>
+                    {/* <div className="title-btns">
                         <div className="btns">
-                            <button title="scroll left" onClick={slideLeft}>
+                            <button title="scroll left" onClick={slideLeft} >
                                 <AiOutlineArrowLeft />
                             </button>
-                            <button title="scroll right" onClick={slideRight}>
+                            <button title="scroll right" onClick={slideRight} >
+                                <AiOutlineArrowRight />
+                            </button>
+                        </div>
+                    </div> */}
+                    <div className="title-btns-pc">
+                        <div className="btns-pc">
+                            <button title="scroll left" onClick={slideLeft} className="btns-left-pc">
+                                <AiOutlineArrowLeft />
+                            </button>
+                            <button title="scroll right" onClick={slideRight} className="btns-right-pc">
                                 <AiOutlineArrowRight />
                             </button>
                         </div>

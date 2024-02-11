@@ -1,5 +1,5 @@
 .slider {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 19px;
   display: flex;
@@ -52,7 +52,7 @@
 }
 
 .title-btns {
-  display: flex;
+  display: none;
   justify-content: center;
 }
 
@@ -78,12 +78,18 @@
   background-color: rgb(255, 90, 0, 0.5);
 }
 
+.title-btns-pc {
+  display: flex;
+  width: 100%;
+}
+
 .btns-pc button {
   color: white;
   background-color: rgb(255, 255, 255, 0.1);
   padding: 1rem;
   font-size: 1.5rem;
   border: none;
+  height: 4rem;
   width: 4rem;
   cursor: pointer;
   transition: all 0.1s ease-in;
@@ -92,13 +98,14 @@
 
 .btns-pc {
   margin-top: 15px;
+  width: 1200px;
   z-index: 2;
   justify-content: space-between;
   display: flex;
   position: absolute;
-  width: 1000px;
 }
-@media only screen and (max-width: 1320px) {
+
+@media only screen and (max-width: 1520px) {
   .btns-left-pc {
     margin-left: 65px;
   }
@@ -106,7 +113,7 @@
     margin-right: 65px;
   }
 }
-@media only screen and (max-width: 1190px) {
+@media only screen and (max-width: 1390px) {
   .btns-left-pc {
     margin-left: 130px;
   }
@@ -114,42 +121,22 @@
     margin-right: 130px;
   }
 }
-
+@media only screen and (max-width: 1260px) {
+  .btns-left-pc {
+    margin-left: 195px;
+  }
+  .btns-right-pc {
+    margin-right: 195px;
+  }
+}
 @media only screen and (max-width: 1120px) {
-  .slider {
-    max-width: 800px;
+  .btns-pc {
+    display: none;
+  }
+  .title-btns {
+    display: flex;
   }
   .item-header img {
     height: 10rem;
-  }
-  .btns-pc {
-    width: 800px;
-    margin: 0;
-    margin-top: 15px;
-  }
-  .btns-left-pc {
-    margin-left: 0;
-  }
-
-  .btns-right-pc {
-    margin-right: 0;
-  }
-  .btns-pc button {
-    height: 10rem;
-  }
-}
-@media only screen and (max-width: 800px) {
-  .slider {
-    max-width: 350px;
-  }
-  .btns-pc {
-    width: 350px;
-  }
-  .btns-left-pc {
-    margin-left: 0;
-  }
-
-  .btns-right-pc {
-    margin-right: 0;
   }
 }
