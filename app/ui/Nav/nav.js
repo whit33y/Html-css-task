@@ -17,7 +17,6 @@ function Navigation() {
                     <a href='/specs'>Specs</a>
                     <a href='/contact'>Contact</a>
                 </div>
-                <Search />
             </div>
             <div className="nav-bottom">
                 <div className="text-rainbow">
