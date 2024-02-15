@@ -1,6 +1,6 @@
 ## Link do zhostowanego projektu
 
-https://html-css-task-snowy.vercel.app/
+Otwórz [Html-css-task](https://html-css-task-snowy.vercel.app/) w przegląrce
 
 ## Uruchomienie projektu lokalnie
 
