@@ -27,7 +27,7 @@
   -webkit-background-clip: text;
 }
 .imageConteiner img {
-  width: 70%;
+  width: 50%;
   margin-bottom: 30px;
 }
 .container-main {
@@ -106,6 +106,9 @@
 }
 
 @media only screen and (max-width: 720px) {
+  .imageConteiner img {
+    width: 70%;
+  }
   .container-buy {
     height: 100%;
   }
@@ -118,5 +121,8 @@
   }
   .cards-mobile {
     display: block;
+  }
+  .container-top {
+    margin: 0;
   }
 }
