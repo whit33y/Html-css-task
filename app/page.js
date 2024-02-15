@@ -28,6 +28,7 @@ export default function Home() {
           width={1080}
           allowFullScreen
           className="container-video-frame"
+          title="Apple Vision Pro guided tour"
         />
       </div>
       <div className="container-slider">
