@@ -1,7 +1,6 @@
 import "./nav.css";
 import BuyButton from "../buttons/buybutton";
 import WatchButton from "../buttons/watchbutton";
-import Search from "../Search/search";
 
 function Navigation() {
     return (
