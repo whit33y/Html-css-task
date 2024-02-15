@@ -29,6 +29,8 @@ export default function Home() {
           allowFullScreen
           className="container-video-frame"
           title="Apple Vision Pro guided tour"
+          loading="lazy"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         />
       </div>
       <div className="container-slider">
