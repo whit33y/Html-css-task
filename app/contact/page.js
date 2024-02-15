@@ -23,9 +23,9 @@ function Page() {
                         </svg>
                         Call us
                     </h2>
-                    <p>Apple Enterprise Sales (877) 412–7753</p>
-                    <p>Apple Government Sales (877) 418–2573</p>
-                    <p>Apple Education Sales 001–800–692–7753</p>
+                    <p><a href="tel:(877) 412–7753">Apple Enterprise Sales (877) 412–7753</a></p>
+                    <p><a href="tel:(877) 418–2573">Apple Government Sales (877) 418–2573</a></p>
+                    <p><a href="tel:001–800–692–7753">Apple Education Sales 001–800–692–7753</a></p>
 
                     <h2><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" width={26} height={26}>
                         <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
@@ -33,11 +33,11 @@ function Page() {
                         Mail us
                     </h2>
                     <h3>-Order status </h3>
-                    <p>contact@apple.com</p>
+                    <p><a href="mailto:contact@apple.com">contact@apple.com</a></p>
                     <h3>-Need support?</h3>
-                    <p>support@apple.com</p>
+                    <p><a href="mailto:support@apple.com">support@apple.com</a></p>
                     <h3>-Find reseller</h3>
-                    <p>resellers@apple.com</p>
+                    <p><a href="mailto:resellers@apple.com">resellers@apple.com</a></p>
                 </div>
             </div>
             <div className="container-bottom">
@@ -47,8 +47,8 @@ function Page() {
                     Feedback
                 </h2>
                 <p className="container-bottom-text">Write an e-mail or call us about what we can change on our website or in our products</p>
-                <p className="container-bottom-text-details">feedback@apple.com</p>
-                <p className="container-bottom-text-details">001–800–692–7753</p>
+                <p className="container-bottom-text-details"><a href="mailto:feedback@apple.com">feedback@apple.com</a></p>
+                <p className="container-bottom-text-details"><a href="tel:001–800–692–7753">001–800–692–7753</a></p>
             </div>
         </main>
     );
