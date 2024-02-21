@@ -5,10 +5,12 @@
   min-height: 100vh;
   color: white;
 }
+
 .container-title {
   color: rgb(255, 255, 255);
   text-align: center;
 }
+
 .container-top {
   width: 100%;
   height: 500px;
@@ -16,6 +18,7 @@
   justify-content: center;
   text-align: center;
 }
+
 .text-orange {
   color: rgb(255, 90, 0);
 }
@@ -44,12 +47,14 @@
   font-size: 25px;
   text-align: center;
 }
+
 .container-video {
   position: relative;
   overflow: hidden;
   width: 100%;
   padding-top: 56.25%;
 }
+
 .container-video-frame {
   position: absolute;
   top: 0;
@@ -60,6 +65,7 @@
   height: 100%;
   border: none;
 }
+
 .container-main {
   color: white;
   text-align: center;
@@ -69,6 +75,7 @@
 .container-main p {
   font-size: 20px;
 }
+
 .bottomContent {
   width: 100%;
   height: 600px;
@@ -78,6 +85,7 @@
   text-align: center;
   color: white;
 }
+
 .container-bottom-text {
   height: 15%;
   text-align: center;
@@ -88,6 +96,7 @@
   text-shadow: rgb(255, 90, 0) 1px 0 10px;
   transition: all 300ms ease-in-out;
 }
+
 .container-top-image-text:hover {
   color: rgb(255, 255, 255);
   text-shadow: rgb(255, 255, 255) 1px 0 10px;
@@ -114,6 +123,7 @@
   align-items: center;
   color: white;
 }
+
 .container-girlphoto img {
   width: 50%;
 }
@@ -122,6 +132,7 @@
   color: white;
   text-align: center;
 }
+
 .container-slider p {
   color: white;
   text-align: center;
@@ -137,6 +148,7 @@
     padding-left: 0;
     padding-right: 0;
   }
+
   .container-bottom-image img {
     width: 50%;
   }
@@ -145,6 +157,7 @@
   .container-main {
     margin: 0px;
   }
+
   .container-top-image-text {
     font-size: 20px;
   }
@@ -153,9 +166,11 @@
   .content {
     height: 30rem;
   }
+
   .container-main {
     margin-top: 30px;
   }
+
   .container-top {
     height: 100%;
   }

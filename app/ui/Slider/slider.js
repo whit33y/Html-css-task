@@ -1,7 +1,8 @@
 "use client";
+import "./slider.css";
 import React from "react";
 import { AiOutlineArrowRight, AiOutlineArrowLeft } from "react-icons/ai";
-import "./slider.css";
+
 
 const Slider = () => {
     const filteredItems = [

@@ -1,6 +1,7 @@
 .nav {
   width: 100%;
 }
+
 .nav .nav-top {
   display: flex;
   justify-content: space-between;
@@ -20,6 +21,7 @@
   text-align: center;
   margin-left: 5rem;
 }
+
 .nav .nav-links a {
   color: #ffffff;
   margin-left: 1rem;

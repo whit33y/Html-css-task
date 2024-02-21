@@ -29,6 +29,7 @@
   transition: all 400ms;
   cursor: pointer;
 }
+
 .btn-watch:hover {
   background-color: white;
   color: black;
