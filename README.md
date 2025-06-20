@@ -22,3 +22,4 @@ yarn dev
 ```
 
 Otwórz [http://localhost:3000](http://localhost:3000) w przeglądarce
+![Screenshot 2025-06-20 at 10 29 45](https://github.com/user-attachments/assets/5013b908-1888-4a40-b2bd-aeffb12145c3)
